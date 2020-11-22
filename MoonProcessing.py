@@ -105,3 +105,4 @@ else:
     cartoon = cartoonization(img, option)
     
     st.image(cartoon, use_column_width=True)
+    st.button("Save image")
